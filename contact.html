@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="icon" type="image/vnd.microsoft.icon" href="resources/logo/arctic-monkeys1.svg">
+
+    <link rel="stylesheet" href="sass/css/bootstrap.css">
+    <script defer src="js/bootstrap.bundle.js" rel="text/JavaScript"></script>
+
+    <link rel="stylesheet" href="sass/css/style.css">
+    <script defer src="js/script.js"></script>
+
+    <title>Arctic Monkeys</title>
+</head>
+
+<body>
+
+    <header class="container-fluid sticky-top">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse fs-4 justify-content-center border-bottom"
+                    id="navbarSupportedContent">
+                    <a class="navbar-brand" href="index.html">
+                        <img src="resources/logo/arctic-monkeys.png" alt="Logo" class="img-fluid logo-navegador">
+                    </a>
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="history.html">History</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link active dropdown-toggle" href="index.html" id="etapasDropdown"
+                                role="button" data-bs-toggle="dropdown" aria-expanded="false">Who are We?</a>
+                            <ul class="dropdown-menu" aria-labelledby="etapasDropdown">
+                                <li><a class="dropdown-item" href="alex.html">Alex Turner</a></li>
+                                <li><a class="dropdown-item" href="jamie.html">Jamie Cook</a>
+                                </li>
+                                <li><a class="dropdown-item" href="nick.html">Nick O'Malley</a></li>
+                                <li><a class="dropdown-item" href="matt.html">Matt Helders </a></li>
+                            </ul>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container-fluid">
+
+        <section class="container py-2">
+            <h1 class="col-sm-12 display-3 fw-bold border-bottom text-center">Contáctanos</h1>
+            
+            <form class="row mt-3 g-3 needs-validation" novalidate>
+
+                <div class="col-sm-12 col-md-6 col-lg-6">
+
+                    <label for="nameId" class="form-label">Nombre</label>
+                    <input type="text" class="form-control" id="nameId" required>
+
+                    <div class="valid-tooltip">Correcto</div>
+                    <div class="invalid-tooltip">Es necesario rellenar el campo</div>
+
+                </div>
+
+                <div class="col-sm-12 col-md-6 col-lg-6">
+
+                    <label for="surnameId" class="form-label">Apellidos</label>
+                    <input type="text" class="form-control" id="surnameId" required>
+
+                    <div class="valid-tooltip">Correcto</div>
+                    <div class="invalid-tooltip">Es necesario rellenar el campo</div>
+
+                </div>
+
+                <div class="col-sm-12 col-md-12 col-lg-12">
+                    <label for="textarea" class="form-label">Mensaje</label>
+                    <textarea type="textarea" class="form-control" required></textarea>
+
+                    <div class="valid-tooltip">Correcto</div>
+                    <div class="invalid-tooltip">Es necesario rellenar el campo</div>
+                </div>
+                
+                <div class="col-sm-12 col-md-12 col-lg-12">
+                    <label for="inputEmail1" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="inputEmail1" required>
+
+                    <div class="valid-tooltip">Correcto</div>
+                    <div class="invalid-tooltip">Es necesario rellenar el campo</div>
+                </div>
+
+                <div class="mb-3">
+                    <label for="motivo" class="form-label">Motivo consulta</label>
+                    <select>
+                      <option value="1">Servicios Desarrollo Web</option>
+                      <option value="2">Servicios Audiovisuales</option>
+                    </select>
+                  </div>
+
+                <div class="col-12">
+
+                    <div class="form-check">
+
+                        <input class="form-check-input" type="checkbox" id="termsId" required>
+                        <label for="termsId" class="form-check-label">Acepto los terminos y las condiciones</label>
+
+                        <div class="valid-tooltip">Correcto</div>
+                        <div class="invalid-tooltip">Es necesario aceptar los terminos y condiciones</div>
+
+                    </div>
+
+                </div>
+
+                <div class="d-flex justify-content-start" id="liveAlertPlaceholder">
+
+                    <button type="submit" class="btn btn-secondary" id="liveAlertBtn">Enviar</button>
+
+                    <div class="valid-tooltip">Correcto</div>
+                    <div class="invalid-tooltip">Es necesario rellenar todos los</div>
+
+                </div>
+                
+            </form>
+
+        </section>
+
+
+
+    </main>
+
+    <div class="container-fluid">
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+            <p class="col-md-4 mb-0 text-body-secondary">
+                © 2024 Sidat Suárez GArcía
+            </p>
+            <ul class="nav col-md-4 justify-content-end">
+                <li class="nav-item">
+                    <a href="https://github.com/SeidaSuarez" class="nav-link px-2 text-body-secondary" target="_blank">
+                        <img src="resources/logo/github-60.svg" alt="Logo" class="img-fluid logo-navegador">
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="https://www.linkedin.com/in/sidat-suarez-garcia-5a496219a/"
+                        class="nav-link px-2 text-body-secondary" target="_blank">
+                        <img src="resources/logo/linkedin.svg" alt="Logo" class="img-fluid logo-navegador">
+                    </a>
+                </li>
+            </ul>
+        </footer>
+    </div>
+</body>
+
+</html>
