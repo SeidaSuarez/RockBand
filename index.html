@@ -22,24 +22,25 @@
     <header class="container-fluid sticky-top">
         <nav class="navbar navbar-expand-lg">
             <div class="container-fluid">
-                <a class="navbar-brand mx-3" href="index.html">
-                    <img src="resources/logo/arctic-monkeys.png" alt="Logo" class="img-fluid logo-navegador">
-                </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse fs-4 justify-content-center" id="navbarSupportedContent">
+                <div class="collapse navbar-collapse fs-4 justify-content-center border-bottom"
+                    id="navbarSupportedContent">
+                    <a class="navbar-brand" href="index.html">
+                        <img src="resources/logo/arctic-monkeys.png" alt="Logo" class="img-fluid logo-navegador">
+                    </a>
                     <ul class="navbar-nav">
                         <li class="nav-item">
                             <a class="nav-link active" aria-current="page" href="index.html">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="gallery.html">History</a>
+                            <a class="nav-link active" aria-current="page" href="history.html">History</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="gallery.html">Who are We?</a>
+                            <a class="nav-link active" aria-current="page" href="whoarewe.html">Who are We?</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link active" aria-current="page" href="gallery.html">Gallery</a>
@@ -51,24 +52,15 @@
                 </div>
             </div>
         </nav>
-        <div class="container-fluid border-top">
-            <ul class="nav justify-content-center pb-3 mb-3">
-                <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Home</a></li>
-                <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Features</a></li>
-                <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Pricing</a></li>
-                <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">FAQs</a></li>
-                <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">About</a></li>
-            </ul>
-        </div>
     </header>
 
-    <main class="container">
+    <main class="container-fluid">
 
         <section class="container-fluid">
 
             <div class="row">
 
-                <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+                <div id="carouselExampleInterval" class="carousel slide carousel-fullscreen" data-bs-ride="carousel">
                     <div class="carousel-inner">
                         <div class="carousel-item active" data-bs-interval="1000">
                             <img src="resources/img/arctic3.jpg" class="d-block w-100" alt="...">
@@ -108,11 +100,38 @@
 
         </section>
 
-        
+        <section class="container">
+
+            <div class="row pt-3">
+                <p class="home-bio">
+                    Los Arctic Monkeys son una banda británica de rock
+                    alternativo que ha dejado una
+                    marca indeleble en la escena musical desde su formación en 2002 en Sheffield, Inglaterra. Con su
+                    distintivo
+                    estilo y letras poéticas, han conquistado corazones en todo el mundo. Su álbum debut "Whatever
+                    People
+                    Say I
+                    Am, That's What I'm Not" los catapultó a la fama y desde entonces, han seguido innovando y
+                    experimentando en
+                    su música, entregando álbumes aclamados como <abbr class="text-primary fw-bold">"AM"</abbr> y
+                    <abbr class="text-primary fw-bold">"Tranquility Base Hotel & Casino"</abbr>. La voz
+                    inconfundible
+                    de Alex Turner, la energía en el escenario y su habilidad para mezclar rock, indie y elementos de
+                    otros
+                    géneros los convierten en una banda imperdible para cualquier amante de la música. ¡Descubre el
+                    universo
+                    musical de los Arctic Monkeys y déjate llevar por su sonido único!
+                </p>
+            </div>
+
+        </section>
+
+
+
 
     </main>
 
-    <div class="container">
+    <div class="container-fluid">
         <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
             <p class="col-md-4 mb-0 text-body-secondary">
                 © 2024 Sidat Suárez GArcía
@@ -124,7 +143,8 @@
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a href="https://www.linkedin.com/in/sidat-suarez-garcia-5a496219a/" class="nav-link px-2 text-body-secondary" target="_blank">
+                    <a href="https://www.linkedin.com/in/sidat-suarez-garcia-5a496219a/"
+                        class="nav-link px-2 text-body-secondary" target="_blank">
                         <img src="resources/logo/linkedin.svg" alt="Logo" class="img-fluid logo-navegador">
                     </a>
                 </li>
