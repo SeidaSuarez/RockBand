@@ -9,10 +9,9 @@
     <link rel="icon" type="image/vnd.microsoft.icon" href="resources/logo/arctic-monkeys1.svg">
 
     <link rel="stylesheet" href="sass/css/bootstrap.css">
-    <link rel="stylesheet" href="sass/css/style.css">
-
-
     <script defer src="js/bootstrap.bundle.js" rel="text/JavaScript"></script>
+
+    <link rel="stylesheet" href="sass/css/style.css">
     <script defer src="js/script.js"></script>
 
     <title>Arctic Monkeys</title>
@@ -23,8 +22,8 @@
     <header class="container-fluid sticky-top">
         <nav class="navbar navbar-expand-lg">
             <div class="container-fluid">
-                <a class="navbar-brand p-0 m-0" href="index.html">
-                    <img src="resources/logo/arctic-monkeys.png" alt="Logo" class="img-fluid m-0 p-0 logo-navegador">
+                <a class="navbar-brand mx-3" href="index.html">
+                    <img src="resources/logo/arctic-monkeys.png" alt="Logo" class="img-fluid logo-navegador">
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -36,64 +35,69 @@
                         <li class="nav-item">
                             <a class="nav-link active" aria-current="page" href="index.html">Home</a>
                         </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link active dropdown-toggle" href="index.html" id="etapasDropdown"
-                                role="button" data-bs-toggle="dropdown" aria-expanded="false">Etapas</a>
-                            <ul class="dropdown-menu" aria-labelledby="etapasDropdown">
-                                <li><a class="dropdown-item" href="index.html#Etapas">Etapa Joven</a></li>
-                                <li><a class="dropdown-item" href="index.html#EtapaBauhaus">Etapa Expre - Bauhaus</a>
-                                </li>
-                                <li><a class="dropdown-item" href="index.html#GranSintesis">La Gran Síntesis</a></li>
-                            </ul>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="gallery.html">History</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="gallery.html">Who are We?</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link active" aria-current="page" href="gallery.html">Gallery</a>
                         </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link active dropdown-toggle" href="details.html" id="detailsDropdown"
-                                role="button" data-bs-toggle="dropdown" aria-expanded="false">Detalles</a>
-                            <ul class="dropdown-menu" aria-labelledby="detailsDropdown">
-                                <li><a class="dropdown-item" href="details.html#Hilma">Hilma</a></li>
-                                <li><a class="dropdown-item" href="details.html#Teoria">Arte</a></li>
-                                <li><a class="dropdown-item" href="details.html#Obras">Obras +</a></li>
-                            </ul>
-                        </li>
                         <li class="nav-item">
                             <a class="nav-link active" aria-current="page" href="contact.html">Contact</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="us.html">Us</a>
                         </li>
                     </ul>
                 </div>
             </div>
         </nav>
+        <div class="container-fluid border-top">
+            <ul class="nav justify-content-center pb-3 mb-3">
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Home</a></li>
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Features</a></li>
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Pricing</a></li>
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">FAQs</a></li>
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">About</a></li>
+            </ul>
+        </div>
     </header>
 
     <main class="container">
 
-        <section class="container p-0 m-0">
+        <section class="container-fluid">
 
             <div class="row">
 
-                <div id="carouselExampleCaptions" class="carousel slide">
+                <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
                     <div class="carousel-inner">
-                        <div class="carousel-item active">
-                            <img src="resources/img/arctic1.jpg" class="d-block img-fluid" alt="...">
+                        <div class="carousel-item active" data-bs-interval="1000">
+                            <img src="resources/img/arctic3.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item" data-bs-interval="2000">
+                            <img src="resources/img/arctic2.jpg" class="d-block w-100" alt="...">
                         </div>
                         <div class="carousel-item">
-                            <img src="img/Composition_VIII-1923_2.jpg" class="d-block img-fluid" alt="...">
+                            <img src="resources/img/arctic4.jpg" class="d-block w-100" alt="...">
                         </div>
                         <div class="carousel-item">
-                            <img src="img/Around_the_circle-1940_2.jpg" class="d-block img-fluid" alt="...">
+                            <img src="resources/img/arctic5-2.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="resources/img/arctic6.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="resources/img/arctic7.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="resources/img/arctic8.jpg" class="d-block w-100" alt="...">
                         </div>
                     </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
                         data-bs-slide="prev">
                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                         <span class="visually-hidden">Previous</span>
                     </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
                         data-bs-slide="next">
                         <span class="carousel-control-next-icon" aria-hidden="true"></span>
                         <span class="visually-hidden">Next</span>
@@ -108,10 +112,25 @@
 
     </main>
 
-
-
-
-
+    <div class="container">
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+            <p class="col-md-4 mb-0 text-body-secondary">
+                © 2024 Sidat Suárez GArcía
+            </p>
+            <ul class="nav col-md-4 justify-content-end">
+                <li class="nav-item">
+                    <a href="https://github.com/SeidaSuarez" class="nav-link px-2 text-body-secondary" target="_blank">
+                        <img src="resources/logo/github-60.svg" alt="Logo" class="img-fluid logo-navegador">
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="https://www.linkedin.com/in/sidat-suarez-garcia-5a496219a/" class="nav-link px-2 text-body-secondary" target="_blank">
+                        <img src="resources/logo/linkedin.svg" alt="Logo" class="img-fluid logo-navegador">
+                    </a>
+                </li>
+            </ul>
+        </footer>
+    </div>
 </body>
 
 </html>

@@ -10,7 +10,13 @@ body {
     font-style: normal;
 }
 
-
 .logo-navegador {
     max-height: 48px;
+}
+
+.carousel-inner{
+    /*-webkit-filter: grayscale(90%);
+    /*filter: grayscale(90%); /* make all photos black and white */
+    width: 100%; /* Set width to 100% */
+    margin: auto;
 }
