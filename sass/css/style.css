@@ -24,3 +24,9 @@ body {
     text-align: justify;
 
 }
+
+.retrato {
+    max-height: 120%;
+    width: auto;
+
+}
