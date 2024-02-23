@@ -16,7 +16,7 @@ body {
 }
 
 .nav-item :hover {
-    text-decoration:underline;
+    text-decoration: underline;
 
 }
 
@@ -29,4 +29,19 @@ body {
     max-height: 120%;
     width: auto;
 
+}
+
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.socials:hover {
+    animation: spin 0.8s linear infinite;
 }
