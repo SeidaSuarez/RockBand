@@ -32,7 +32,3 @@ function mostrarAlerta(mensaje) {
         alert.remove();
     }, 4000);
 }
-
-
-
-

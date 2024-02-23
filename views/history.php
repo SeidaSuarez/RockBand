@@ -1,4 +1,4 @@
-<section class="container py-2">
+<section class="container-fluid py-2 zona1" data-stellar-background-ratio="0.5">
     <h1 class="col-sm-12 display-3 fw-bold text-center">
         <img src="resources/logo/arctic-monkeys-history.png" alt="Arctic Monkeys">
     </h1>
@@ -7,7 +7,7 @@
 
         <div class="col-sm-12 col-md-12 col-lg-6">
             <div class="d-flex align-content-center flex-column">
-                <img src="resources/img/ArcticMonkeys2023-1.jpg" alt="Portrait" class="img-fluid rounded retrato">
+                <img src="resources/img/ArcticMonkeys-BAKGROUND.jpg" alt="Portrait" class="img-fluid rounded retrato">
                 <div class="card-text text-center">
                     <p class="card-text text-muted m-0 p-0">Alex Turner, Jamie Cook, Nick O'Malley y Matt Helders</p>
                     <a href="https://es.wikipedia.org/wiki/Arctic_Monkeys" target="_blank" class="badge btn btn-info fs-6  p-1">Biografía</a>

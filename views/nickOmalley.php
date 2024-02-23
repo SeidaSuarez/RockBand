@@ -1,10 +1,4 @@
-<section class="container py-2">
-    <h1 class="col-sm-12 display-3 fw-bold text-center">
-        Nick O'Malley
-    </h1>
-</section>
-
-<section class="container">
+<section class="container-fluid zona1">
 
     <div class="row">
 
@@ -38,7 +32,7 @@
 
     <div class="row pt-3">
         <p class="home-bio fs-5">
-            Bajista y coros. O'Malley se unió a la banda en 2006, reemplazando al bajista original Andy
+            Bajista y coros, Nick O'Malley se unió a la banda en 2006, reemplazando al bajista original Andy
             Nicholson. Nacido el 5 de julio de 1985 en Sheffield, Inglaterra, su incorporación coincidió con el
             lanzamiento del segundo álbum de la banda, "Favourite Worst Nightmare". Su habilidad en el bajo y
             sus voces de apoyo son elementos esenciales en muchas de las canciones de la banda.

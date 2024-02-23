@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
-* {}
+* {
+    margin: 0;
+    padding: 0;
+}
 
 body {
     font-family: "Montserrat", sans-serif;
@@ -9,28 +12,27 @@ body {
     font-style: normal;
 }
 
+header {
+    background: #fff;
+}
+
 .logo-navegador {
     height: 48px;
     width: 48px;
-
 }
 
 .nav-item :hover {
     text-decoration: underline;
-
 }
 
 .home-bio {
     text-align: justify;
-
 }
 
 .retrato {
     max-height: 120%;
     width: auto;
-
 }
-
 
 @keyframes spin {
     from {
@@ -44,4 +46,8 @@ body {
 
 .socials:hover {
     animation: spin 0.8s linear infinite;
+}
+
+section {
+    background-attachment: fixed;
 }

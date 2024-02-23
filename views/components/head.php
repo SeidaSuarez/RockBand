@@ -8,15 +8,8 @@
     <link rel="icon" type="image/vnd.microsoft.icon" href="resources/logo/arctic-monkeys1.svg">
 
     <link rel="stylesheet" href="resources/css/bootstrap.css">
-    <script defer src="resources/js/bootstrap.bundle.js" rel="text/JavaScript"></script>
-
-    <script src="resources/js/jquery-3.7.1.min.js"></script>
-    <script src="resources/js/parallax.min.js"></script>
 
     <link rel="stylesheet" href="resources/css/style.css">
-    <script defer src="resources/js/script.js"></script>
-
-    
 
     <title>Arctic Monkeys</title>
 </head>
@@ -28,10 +21,10 @@
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse fs-4 justify-content-center border-bottom" id="navbarSupportedContent">
-                    <div class="socials">
+                <div class="collapse navbar-collapse fs-4 justify-content-center" id="navbarSupportedContent">
+                    <div class="">
                         <a class="navbar-brand" href="index.php?view=home">
-                            <img src="resources/logo/arctic-monkeys.png" alt="Logo" class="img-fluid logo-navegador">
+                            <img src="resources/logo/arctic-monkeys.png" alt="Logo" class="img-fluid logo logo-navegador">
                         </a>
                     </div>
 

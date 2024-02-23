@@ -1,67 +1,65 @@
-<section class="container py-2">
-            <h1 class="col-sm-12 display-3 fw-bold border-bottom text-center">Contact US</h1>
+<section class="container py-2 zona1">
+    <form class="row mt-3 g-3 needs-validation" novalidate>
 
-            <form class="row mt-3 g-3 needs-validation" novalidate>
+        <div class="col-sm-12 col-md-6 col-lg-6">
 
-                <div class="col-sm-12 col-md-6 col-lg-6">
+            <label for="nameId" class="form-label">Nombre</label>
+            <input type="text" class="form-control" id="nameId" required>
 
-                    <label for="nameId" class="form-label">Nombre</label>
-                    <input type="text" class="form-control" id="nameId" required>
+            <div class="valid-tooltip">Correcto</div>
+            <div class="invalid-tooltip">Es necesario rellenar el campo</div>
 
-                    <div class="valid-tooltip">Correcto</div>
-                    <div class="invalid-tooltip">Es necesario rellenar el campo</div>
+        </div>
 
-                </div>
+        <div class="col-sm-12 col-md-6 col-lg-6">
 
-                <div class="col-sm-12 col-md-6 col-lg-6">
+            <label for="surnameId" class="form-label">Apellidos</label>
+            <input type="text" class="form-control" id="surnameId" required>
 
-                    <label for="surnameId" class="form-label">Apellidos</label>
-                    <input type="text" class="form-control" id="surnameId" required>
+            <div class="valid-tooltip">Correcto</div>
+            <div class="invalid-tooltip">Es necesario rellenar el campo</div>
 
-                    <div class="valid-tooltip">Correcto</div>
-                    <div class="invalid-tooltip">Es necesario rellenar el campo</div>
+        </div>
 
-                </div>
+        <div class="col-sm-12 col-md-12 col-lg-12">
+            <label for="textarea" class="form-label">Mensaje</label>
+            <textarea type="textarea" class="form-control" required></textarea>
 
-                <div class="col-sm-12 col-md-12 col-lg-12">
-                    <label for="textarea" class="form-label">Mensaje</label>
-                    <textarea type="textarea" class="form-control" required></textarea>
+            <div class="valid-tooltip">Correcto</div>
+            <div class="invalid-tooltip">Es necesario rellenar el campo</div>
+        </div>
 
-                    <div class="valid-tooltip">Correcto</div>
-                    <div class="invalid-tooltip">Es necesario rellenar el campo</div>
-                </div>
+        <div class="col-sm-12 col-md-12 col-lg-12">
+            <label for="inputEmail1" class="form-label">Email</label>
+            <input type="email" class="form-control" id="inputEmail1" required>
 
-                <div class="col-sm-12 col-md-12 col-lg-12">
-                    <label for="inputEmail1" class="form-label">Email</label>
-                    <input type="email" class="form-control" id="inputEmail1" required>
+            <div class="valid-tooltip">Correcto</div>
+            <div class="invalid-tooltip">Es necesario rellenar el campo</div>
+        </div>
 
-                    <div class="valid-tooltip">Correcto</div>
-                    <div class="invalid-tooltip">Es necesario rellenar el campo</div>
-                </div>
+        <div class="col-12">
 
-                <div class="col-12">
+            <div class="form-check">
 
-                    <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="termsId" required>
+                <label for="termsId" class="form-check-label">Acepto los terminos y las condiciones</label>
 
-                        <input class="form-check-input" type="checkbox" id="termsId" required>
-                        <label for="termsId" class="form-check-label">Acepto los terminos y las condiciones</label>
+                <div class="valid-tooltip">Correcto</div>
+                <div class="invalid-tooltip">Es necesario aceptar los terminos y condiciones</div>
 
-                        <div class="valid-tooltip">Correcto</div>
-                        <div class="invalid-tooltip">Es necesario aceptar los terminos y condiciones</div>
+            </div>
 
-                    </div>
+        </div>
 
-                </div>
+        <div class="d-flex justify-content-start" id="liveAlertPlaceholder">
 
-                <div class="d-flex justify-content-start" id="liveAlertPlaceholder">
+            <button type="submit" class="btn btn-secondary" id="liveAlertBtn">Enviar</button>
 
-                    <button type="submit" class="btn btn-secondary" id="liveAlertBtn">Enviar</button>
+            <div class="valid-tooltip">Correcto</div>
+            <div class="invalid-tooltip">Es necesario rellenar todos los</div>
 
-                    <div class="valid-tooltip">Correcto</div>
-                    <div class="invalid-tooltip">Es necesario rellenar todos los</div>
+        </div>
 
-                </div>
+    </form>
 
-            </form>
-
-        </section>
+</section>

@@ -1,4 +1,4 @@
-<section class="container">
+<section class="container-fluid zona1">
 
     <div class="row">
 
@@ -64,7 +64,7 @@
         </p>
         <p class="home-bio fs-4 text-center">
             Descubre ya su ultimo trabajo
-            <a href="https://arcticmonkeys.ffm.to/thecar" class="nav-item text-decoration-none">
+            <a href="https://arcticmonkeys.ffm.to/thecar" target="_blank" class="nav-item text-decoration-none">
                 <abbr class="text-primary fw-bold">"THE CAR"</abbr>
             </a>, ya disponible en todas las plataformas.
         </p>

@@ -1,10 +1,4 @@
-<section class="container-fluid py-2">
-    <h1 class="col-sm-12 display-3 fw-bold text-center">
-        Alex Turner
-    </h1>
-</section>
-
-<section class="container">
+<section class="container-fluid zona1">
 
     <div class="row">
 
@@ -38,7 +32,7 @@
 
     <div class="row pt-3">
         <p class="home-bio fs-5">
-            Vocalista principal y guitarrista. Nacido el 6 de enero de 1986 en Sheffield, Inglaterra, Turner es
+            Vocalista principal y guitarrista. Nacido el 6 de enero de 1986 en Sheffield, Inglaterra, Alex Turner es
             también el principal compositor de la banda. Es conocido por su distintivo estilo vocal y sus letras
             inteligentes y a menudo irónicas. Además de su trabajo con Arctic Monkeys, Turner ha participado en
             proyectos paralelos como The Last Shadow Puppets.

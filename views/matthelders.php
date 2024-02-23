@@ -1,10 +1,4 @@
-<section class="container py-2">
-    <h1 class="col-sm-12 display-3 fw-bold text-center">
-        Matt Helders
-    </h1>
-</section>
-
-<section class="container">
+<section class="container-fluid zona1">
 
     <div class="row">
 
@@ -38,7 +32,7 @@
 
     <div class="row pt-3">
         <p class="home-bio fs-5">
-            Baterista y coros. Nacido el 7 de mayo de 1986 en Sheffield, Inglaterra, Helders es conocido por su
+            Baterista y coros. Nacido el 7 de mayo de 1986 en Sheffield, Inglaterra, Matt Helders es conocido por su
             energético estilo de batería, que ha sido crucial en el sonido de Arctic Monkeys desde sus primeros
             días. Además de su trabajo en la batería, también aporta voces de apoyo y ocasionalmente voces
             principales en algunas canciones.

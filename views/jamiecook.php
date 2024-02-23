@@ -1,10 +1,4 @@
-<section class="container-fluid py-2">
-    <h1 class="col-sm-12 display-3 fw-bold text-center">
-        Jamie Cook
-    </h1>
-</section>
-
-<section class="container">
+<section class="container-fluid zona1">
 
     <div class="row">
 
@@ -38,7 +32,7 @@
 
     <div class="row pt-3">
         <p class="home-bio fs-5">
-            Guitarrista principal. Nacido el 8 de julio de 1985 en Sheffield, Inglaterra, Cook es uno de los
+            Guitarrista principal. Nacido el 8 de julio de 1985 en Sheffield, Inglaterra, Jamie Cook es uno de los
             miembros fundadores de la banda. Su estilo de guitarra ha sido una parte clave del sonido
             característico de Arctic Monkeys, aportando riffs enérgicos y melódicos.
         </p>
