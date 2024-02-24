@@ -1,4 +1,4 @@
-<section class="container-fluid zona1">
+<section class="container-fluid">
 
     <div class="row">
 
@@ -8,42 +8,30 @@
                     <img src="resources/img/arctic3.jpg" class="d-block w-100" alt="...">
                 </div>
                 <div class="carousel-item" data-bs-interval="2000">
+                    <img src="resources/img/arctic1.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
                     <img src="resources/img/arctic2.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="resources/img/arctic5.jpg" class="d-block w-100" alt="...">
                 </div>
                 <div class="carousel-item">
                     <img src="resources/img/arctic4.jpg" class="d-block w-100" alt="...">
                 </div>
                 <div class="carousel-item">
-                    <img src="resources/img/arctic5-2.jpg" class="d-block w-100" alt="...">
-                </div>
-                <div class="carousel-item">
                     <img src="resources/img/arctic6.jpg" class="d-block w-100" alt="...">
                 </div>
-                <div class="carousel-item">
-                    <img src="resources/img/arctic7.jpg" class="d-block w-100" alt="...">
-                </div>
-                <div class="carousel-item">
-                    <img src="resources/img/arctic8.jpg" class="d-block w-100" alt="...">
-                </div>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
         </div>
 
     </div>
 
 </section>
 
-<section class="container">
-
-    <div class="row pt-3">
-        <p class="home-bio">
+<section class="container pt-3 pb-5">
+    <div class="row">
+        <p class="fs-5">
             Los Arctic Monkeys son una banda británica de rock
             alternativo que ha dejado una
             marca indeleble en la escena musical desde su formación en 2002 en Sheffield, Inglaterra. Con su
@@ -62,7 +50,7 @@
             universo
             musical de los Arctic Monkeys y déjate llevar por su sonido único!
         </p>
-        <p class="home-bio fs-4 text-center">
+        <p class="home-bio fs-5 text-center">
             Descubre ya su ultimo trabajo
             <a href="https://arcticmonkeys.ffm.to/thecar" target="_blank" class="nav-item text-decoration-none">
                 <abbr class="text-primary fw-bold">"THE CAR"</abbr>

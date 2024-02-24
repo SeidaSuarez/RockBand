@@ -1,39 +1,37 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wdth,wght,YTLC@0,6..12,75..125,200..1000,440..540;1,6..12,75..125,200..1000,440..540&display=swap');
 
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+}
+
+.container-fluid {
+    margin: 0 0 0 0 !important;
+    padding: 0 0 0 0 !important;
 }
 
 body {
-    font-family: "Montserrat", sans-serif;
+    font-family: "Nunito Sans", sans-serif;
     font-optical-sizing: auto;
+    font-size: 16px;
     font-weight: 500;
     font-style: normal;
 }
 
-header {
-    background: #fff;
-}
 
-.logo-navegador {
-    height: 48px;
-    width: 48px;
-}
-
-.nav-item :hover {
-    text-decoration: underline;
-}
-
+/**Texto justificado de la seccion home*/
 .home-bio {
     text-align: justify;
 }
 
+/** Intento de responsivness de la foto seccion historia*/
 .retrato {
     max-height: 120%;
     width: auto;
 }
 
+/** Movimiento iconos RRSS footer */
 @keyframes spin {
     from {
         transform: rotate(0deg);
@@ -48,6 +46,196 @@ header {
     animation: spin 0.8s linear infinite;
 }
 
-section {
-    background-attachment: fixed;
+/**Tamaño del icono del logo*/
+.logo-container,
+.logo-svg {
+    width: 100px;
+    height: auto;
+}
+
+.logo-rrss {
+    width: 46px;
+    height: auto;
+}
+
+header {
+    height: 50px;
+    position: fixed;
+    z-index: 2000;
+}
+
+nav ul {
+    width: 100vw;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+nav li {
+    height: 50px;
+}
+
+nav a {
+    height: 100%;
+    padding: 0 30px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 400;
+}
+
+nav a:hover {
+    font-size: 22px;
+    transition: 0.4s;
+}
+
+nav li:first-child {
+    margin-right: auto;
+}
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 250px;
+    background-color: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(12px);
+    box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1);
+    list-style: none;
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.sidebar li {
+    width: 100%;
+}
+
+.sidebar a {
+    width: 100%;
+}
+
+.menu-button {
+    display: none;
+}
+
+/** Transicon del Menú scroll*/
+.header-scroll {
+    background-color: white !important;
+    /* Cambia el fondo a blanco en scroll */
+    transition: 0.5s;
+    /* Transición suave para el fondo */
+}
+
+.header-scroll nav a {
+    font-weight: 700;
+    color: black !important;
+    letter-spacing: 4px;
+    /* Cambia el color del texto de los enlaces a negro */
+    transition: 0.5s;
+    /* Transición suave para el color del texto */
+}
+
+.svg-scroll-color g {
+    fill: black;
+    transition: 0.5s;
+}
+
+
+/**Dropdown Who are We?*/
+/* Estilos para el dropdown en la versión de escritorio */
+.desktop-nav .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.desktop-nav .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.desktop-nav .dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Estilo para el botón del menú desplegable */
+.dropbtn {
+    background: none;
+    padding: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Contenedor del menú desplegable */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+/* Ítems del menú desplegable */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Cambio de color al pasar el ratón por encima */
+.dropdown-content a:hover {
+    background-color: #f1f1f1
+}
+
+/* Mostrar el menú desplegable al pasar el ratón */
+.dropbtn:hover .dropdown-content {
+    display: block;
+}
+
+@media(max-width: 850px) {
+    .hideOnMobile {
+        display: none;
+    }
+
+    .menu-button {
+        display: block;
+    }
+
+    header {
+        height: 50px;
+        position: fixed;
+        z-index: 2000;
+        background-color: white !important;
+        transition: 0.5s;
+    }
+
+}
+
+@media(max-width: 400px) {
+    .sidebar {
+        width: 100%;
+    }
+}
+
+@media (max-width: 850px) {
+    #svgIcon g {
+      fill: #000000; /* Cambia el color de relleno a negro directamente */
+    }
+  }
+
+.desktop-nav .dropdown-content.show {
+    display: block;
 }

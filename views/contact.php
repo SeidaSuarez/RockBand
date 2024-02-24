@@ -1,5 +1,8 @@
-<section class="container py-2 zona1">
-    <form class="row mt-3 g-3 needs-validation" novalidate>
+<section class="container-fluid">
+    <div class="d-flex align-content-center flex-column">
+        <img src="resources/img/arcticQHD.jpg" alt="Portrait" class="img-fluid retrato">
+    </div>
+    <form class="row mt-3 mx-5 px-2 pb-5 g-3 needs-validation" novalidate>
 
         <div class="col-sm-12 col-md-6 col-lg-6">
 
